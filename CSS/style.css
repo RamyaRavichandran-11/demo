@@ -1,0 +1,407 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: lightcyan;
+}
+.nav{
+    background-color:blue;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    position:fixed;
+}
+.nav .title h4{
+    color:white;
+    text-indent:5px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.nav .title h4 i{
+    margin-right:10px;
+}
+.nav .title img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    float:left;
+    padding:10px;
+    text-indent:10px;
+}
+.nav .menu a{
+    text-decoration:none;
+    color:white;
+    padding:8px;
+    transition:all 1s;
+    
+}
+.nav .menu a:hover{
+    background-color:white;
+    color:green;
+
+}
+.nav .menu{
+    width:50%;
+    display:flex;
+    justify-content:space-around;
+}
+.nav button{
+    width:30px;
+    height:30px;
+    margin-right:10px;
+    display:none;
+}
+.container1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.img1{
+    margin-top: 50px;
+}
+.con1cont{
+    width: 60%;
+    height: 400px;
+    margin-top: 100px;
+    text-align: center;
+}
+.con1cont p{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.container1 img{
+    width:500px;
+    height:400px;
+    float: left;
+    margin:20px;
+    
+}
+.container2{
+    width: 100%;
+    height: 500px;
+    display:flex;
+    justify-content: space-around;
+}
+.con2cont{
+    width: 60%;
+    height: 400px;
+    text-align: center;
+    margin-top: 100px;
+}
+.con2cont p{
+    text-align: left;
+    margin-left: 20px;
+}
+.con2img{
+    width: 40%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    
+}
+.container2 img{
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin:20px;
+}
+.container3{
+    text-align: center;
+    float:left;
+    width:100%;
+    margin-top: -50px;
+}
+.con3cont{
+ display: flex;
+ justify-content: space-evenly;
+ margin-top:30px;
+}
+.container3 .item1{
+    margin:20px;
+    width:250px;
+    height:350px;
+    text-align: center;
+    border:2px solid black;
+    border-radius:8px;
+    float:left;
+    background-color:antiquewhite;
+    padding:5px;
+}
+.item1 img{
+    width:100%;
+    height:110px;
+
+}
+.container3 .item1:hover{
+    flex-grow:0.1;
+    scale:1.3;
+}
+.container3 .item2{
+    margin:20px;
+    width:250px;
+    height:350px;
+    text-align: center;
+    border:2px solid black;
+    border-radius:8px;
+    float:left;
+    background-color:antiquewhite;
+    padding:5px;
+}
+.item2 img{
+    width:100%;
+    height:110px;
+
+}
+.container3 .item2:hover{
+    flex-grow:0.1;
+    scale:1.3;
+}
+.container3 .item3{
+    margin:20px;
+    width:250px;
+    height:350px;
+    text-align: center;
+    border:2px solid black;
+    border-radius:8px;
+    float:left;
+    background-color:antiquewhite;
+    padding:5px;
+
+}
+.item3 img{
+    width:100%;
+    height:110px;
+
+}
+.container3 .item3:hover{
+    flex-grow:0.1;
+    scale:1.3;
+}
+.container3 .item4{
+    margin:20px;
+    width:250px;
+    height:350px;
+    text-align: center;
+    border:2px solid black;
+    border-radius:8px;
+    float:left;
+    background-color:antiquewhite;
+    padding:5px;
+}
+.container3 .item4:hover{
+    flex-grow:0.1;
+    scale:1.3;
+}
+.aboutcont{
+    width:100%;
+    float:left;
+    margin-top:30px;
+}
+.aboutcont h1{
+    text-align: center;
+}
+.container4{
+    float: left;
+    width: 80%;
+    padding: 5px;
+    margin:50px;
+    height:200px;
+    margin-left:10px;
+}
+.item4 img{
+    width:100%;
+    height:110px;
+
+}
+.con4cont{
+    width: 60%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    margin-top:50px;
+    
+}
+.container4 img{
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin:20px;
+    margin-left:10px;
+    margin-top:-20px;
+}
+.con4cont p{
+    text-align: left;
+    margin-left: 20px;
+}
+.con4img{
+    width: 40%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    
+}
+
+.container5{
+    float: right;
+    width: 80%;
+    padding: 5px;
+    margin:50px;
+    height:200px;
+    margin-right:10px;
+}
+.con5cont{
+    width: 60%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    margin-top:50px;
+}
+.container5 img{
+    width: 400px;
+    height: 300px;
+    margin:20px;
+    margin-right:0px;
+}
+.con5cont p{
+    text-align: left;
+    margin-left: 20px;
+}
+.con5img{
+    width: 40%;
+    height: 150px;
+    float: left;
+    text-align: right;
+    
+}
+
+.container6{
+    float: left;
+    width: 80%;
+    padding: 5px;
+    margin: 50px;
+    height:200px;
+    margin-left:10px;
+}
+.con6cont{
+    width: 60%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    margin-top:50px;
+}
+.container6 img{
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin:20px;
+}
+.con6cont p{
+    text-align: left;
+    margin-left: 20px;
+}
+.con6img{
+    width: 40%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    
+}
+.container7{
+    float: right;
+    width: 80%;
+    padding: 5px;
+    margin: 50px;
+    height:300px;
+    margin-right:10px;
+}
+.con7cont{
+    width: 60%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    margin-top:50px;
+}
+.container7 img{
+    width: 400px;
+    height: 300px;
+    margin:20px;
+    margin-right:0px;
+}
+.con7cont p{
+    text-align: left;
+    margin-left: 20px;
+}
+.con7img{
+    width: 40%;
+    height: 150px;
+    float: left;
+    text-align: right;
+    
+}
+.container8{
+    float:left;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:100px;
+}
+.con8cont{
+    margin:20px;
+    width:30%;
+    margin-top:-1px;
+}
+.con9cont{
+    width:20%
+
+}
+.con9cont a{
+    width:100%;
+    float:left;
+    margin-bottom:2px;
+}
+.con10cont{
+    width:50%;
+    text-align: center;
+}
+.con10cont img{
+    width:500px;
+}
+
+
+
+@media only screen and (min-width:300px) and (max-width:780px){
+    .container1{
+        flex-direction:column;
+    }
+    .con1cont{
+        width:100%;
+    }
+    .img1{
+        margin-bottom:200px;
+    }
+    .menu{
+        position:absolute;
+        right:10px;
+        background-color:grey;
+        flex-direction: column;
+        top:50px;
+    }
+    .container2{
+        flex-direction:column;
+    }
+    .con2img{
+        margin-top:300px;
+    }
+    .container3{
+        flex-direction:column;
+    }
+    .nav button{
+        display:block;
+        
+    }
+
+}
